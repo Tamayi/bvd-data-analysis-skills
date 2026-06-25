@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bvd-common"
+version = "0.1.0"
+description = "Shared library for BVD data-analysis skills (palette, pptx primitives, stats)"
+requires-python = ">=3.10"
+dependencies = [
+    "pandas",
+    "openpyxl",
+    "python-pptx",
+    "numpy",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

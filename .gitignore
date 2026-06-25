@@ -1,0 +1,21 @@
+# Generated portable bundles
+/dist/
+
+# Real data exports — never commit patient-level / line-list data
+/data/*
+!/data/.gitkeep
+
+# Generated outputs
+*.pptx
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
