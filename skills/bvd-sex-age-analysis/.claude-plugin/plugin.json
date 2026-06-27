@@ -1,0 +1,5 @@
+{
+  "name": "bvd-sex-age-analysis",
+  "version": "0.1.0",
+  "description": "Generate the standard BVD Sex and Age epidemiological PowerPoint slide deck from a DHIS2 Tracker line-list export (Ebola/MVE outbreak, DRC). Runs all reconciliation quality gates before producing the deck."
+}

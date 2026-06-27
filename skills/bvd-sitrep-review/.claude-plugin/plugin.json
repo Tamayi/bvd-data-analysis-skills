@@ -1,0 +1,5 @@
+{
+  "name": "bvd-sitrep-review",
+  "version": "0.1.0",
+  "description": "Two-stage pipeline for the COUSP / WHO AFRO internal Situation Report (SitRep) of the Bundibugyo virus disease (MVE-Bundibugyo) outbreak in the Democratic Republic of the Congo. STAGE 1 (enhance): turn a raw COUSP SitRep into an enriched final by adding a colour-coded day-over-day comparison dashboard and six analytical figures, preserving all original formatting, logos and maps. STAGE 2 (review): produce a technical review & data-quality report that arithmetically verifies every table, reconciles deaths and cumulative deltas, flags impossible values and missing data, and lists pre-dissemination corrections."
+}
